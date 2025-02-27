@@ -26,6 +26,7 @@ def generate_images_using_huggingface_diffusers(text):
 #Streamlit Code
 choice = st.sidebar.selectbox("Select your choice", ["Home", "DALL-E", "Huggingface Diffusers"])
 
+# Choice of Library Used
 if choice == "Home":
     st.title("AI Image Generation App")
     with st.expander("About the App"):
